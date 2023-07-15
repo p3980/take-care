@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+    background-color: rgb(30, 30, 30);
+    max-width: 1200;
+    min-width: 680px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: rgb(80, 80, 80);
+}
+
+h1{
+    margin: 10px 15px;
+    line-height: .9em;
+    color: rgb(180, 100, 200);
+}
+
+h1:hover{
+    color: rgb(100, 50, 100);
+}
+
+nav a{
+    margin-right: 15px;
+    padding: 10px;
+    font-size: large;
+    color: white;
+}
+
+nav a:hover{
+    color: rgb(180, 100, 200);
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+h2{
+    font-size: xx-large;
+    color: rgb(180, 100, 200);
+}
+
+p{
+    color: white;
+}
+
+aside p{
+    font-size: medium;
+}
+
+#menu-bar{
+    display: flex;
+}
+
+img{
+    width: 600px;
+}
+
+aside{
+    width: 400px;
+    margin-top: 30px;
+}
+
+main{
+    padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nome{
+    padding: 7px;
+    border: 2px solid rgb(180, 100, 200);
+    border-radius: 15px;
+}
+
+#email{
+    padding: 7px;
+    border: 2px solid rgb(180, 100, 200);
+    border-radius: 15px;
+}
+
+#enviar{
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: rgb(90, 80, 110);
+    border: 2px solid rgb(180, 100, 200);
+}
+
+#enviar:hover{
+    background-color: rgb(180, 100, 200);
+}
